@@ -35,3 +35,7 @@ if (xpAtual < 1000 && xpAtual >= 0) {
     }
     alert("Parabéns, " + nome + "! Você está no tier: " + tier);
 }
+contadorDeXP();
+
+// git add ContadorXP.js
+// git commit -m "Desafio 1: Adiciona contador de XP"
