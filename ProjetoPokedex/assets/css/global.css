@@ -8,8 +8,16 @@
     
 }
 
-.pokemons{
+ul.pokemons{
     list-style: none;
-    padding: 0;
-    margin: 0;
-    }
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ul.pokemons li{
+    margin: .5rem;
+    padding: 1rem;
+    background: #14A06F;
+}
